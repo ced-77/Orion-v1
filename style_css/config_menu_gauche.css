@@ -1,0 +1,95 @@
+﻿/* CSS de la partie menu de gauche */
+
+
+/* Definiton de l'emplacement du menu de gauche avec la couleur de fond */              
+#menu_gauche {
+             background: navy;
+             }
+
+/* Définition du titre du menu gauche 
+   ce titre a ete retire dans le menu administrateur 
+
+#menu_gauche h1 {
+             color: yellow;
+             text-align: center;
+             font-size: 22px;
+             text-decoration: underline;
+             font-weight: bold;
+             }
+*/
+ 
+ /* définition du menu */
+ #menu_gauche div#menu {
+              margin: 0px; /* remise à zero des marges externes */
+              padding: 0px; /* remise à zero des marges internes */
+              margin-top: 50px; /* définition de la marge du haut pour déscendre le menu */
+              /* list-style-type: none; */ /* retrait des puces pour le menu */
+              text-align: center; /* centrage des menus */
+              }
+              
+ /* définition des boutons du menu */
+ #menu a {
+         display: block; /* transphormation de la céllule en bloque */
+         width: 120px; /* définition de la largeur du bouton */
+         margin-left: auto; /* marge auto pour un centrage des boutons */
+         margin-right: auto; /* marge auto pour un centrage des boutons */
+         margin-bottom: 10px; /* définition des marges basse des boutons pour les séparer */
+         border-style: outset; /* définition de la bordure du bouton */
+         border-color: white; /* définition de la couleur de la bordure du bouton */
+         border-width: 5px; /* définition de l'épaisseur de la bordure du bouton */
+         background-color: cyan; /* couleur de fond des boutons */
+         color: black; /* couleur de la police des boutons */
+         text-decoration: none; /* retrait du soulignement des liens */
+         line-height: 25px; /* augmentation de la boite de texte pour aération des liens  */
+         }
+         
+ /* définition du bouton une fois la sourie dessus */
+ #menu a:hover {
+               border-style: inset; /* définition de l'aspect du bouton */
+               background-color: black; /* définition de la couleur de fond du bouton */
+               color: cyan; /* définition de la couleur de la police du bouton */
+               }
+               
+ /* définition du bouton du sous menu */
+#menu .sousmenu a {
+	          display:block; /* transphormation de la cellule en bloque */
+	          width:100px;  /* définitin de la largeur de la cellule */
+	          margin-left: auto; /* définition de la marge gauche pour un centrage du bouton */
+            margin-right: auto; /* défintion de la marge droite pour un centrage du bouton */
+            margin-top: 0px; /* défintiion de la marge de haut du bouton */
+            border-style: none; /* definition du style de bordure du bouton */ 
+	          color: cyan;
+	          text-decoration:none; /* retrait du soulignemnt automatique du lien */
+	          background-color: black;
+            }
+            
+/* définition du bouton du sous menu quand on passe dessus */
+
+#menu .sousmenu a:hover {
+                  background-color: cyan;
+                  color: black;
+                  
+                  }
+
+/* definition du block soussous menu */
+#menu div.soussousmenu  {
+                        margin-top: 10px; /* définition de la marge du haut du bloque afin de décoler celui ci du reste */
+                        margin-bottom: 10px; /* défintion de la marge de bas du bloque afin de décoler celui ci du reste */ 
+                        }
+                  
+/* definition des boutons soussousmenu pour les coller */
+#menu .soussousmenu a {
+                    display: block; /* formation du bloque */
+                    margin-top: 0px; /* marge haut mize à zero pour coler les bloques les un au autre */
+                    margin-bottom: 0px; /* idem avec la marge du bas du bloque */
+                    background-color: cyan;
+                    color: black;
+                    text-decoration: none;
+                    }
+
+/* definition des boutons une foix la sourie dessus */
+#menu .soussousmenu a:hover {
+                            background-color: black ;
+                            color: cyan;
+                            }
+

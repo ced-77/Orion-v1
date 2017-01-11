@@ -1,0 +1,120 @@
+﻿/* CSS de la page de la liste des voyants */
+
+div#corp {
+         background-color: grey; /* couleur de fond du corp du document */
+         color: white; /* couleur de la police du corp du document */
+         cursor: default; /* définition de la forme du curseur de la sourie */
+         }
+         
+/* définition du titre de la page */
+div#corp h1 {
+            margin-top: 20px; /* définition de la hauteur du titre */
+            text-align: center; /* centrage du titre */
+            font-size: 27px; /* taille du titre */
+            text-decoration: underline; /* soulignement du titre */
+            font-weight: bold; /* mise en gras de la police du titre */
+            color: white; /* définition de la couleur de police */
+            }
+
+/* définition du deuxieme titre */
+div#corp h2 {
+            margin-top: 25px; /* définition de l'espacement entre le titre et le sous titre */
+            font-size: 25px; /* définition de la taille du sous titre */
+            text-align: center; /* centrage du sous titre */
+            font-weight: bold; /* mise en gras de la police */
+            color: cyan; /* mise en couleur de la police */
+            }
+
+/* définition de bloque qui comprend les paragraphes   */
+div#corp blockquote {
+         margin-top: 20px; /* eloignement de blockquote du sous titre */
+         margin-bottom: 0px;
+         margin-left: auto; /* réglage de la marge gauche auto du bloque pour un centrage */
+         margin-right: auto;  /* réglage de la marge droite auto du bloque pour un centrage */
+         width: 650px; /* définition de la lageur du bloc */
+         padding-top: 10px; /* retrait interne du bloque pour éloigner le premier paragraphe du haut de la page */
+         }
+ 
+/* définition des paragraphes du corp du page */          
+div#corp p {
+         margin-top: 0px; /* mise à zéro de la marge du haut des paragraphe pour les coller */
+         margin-bottom: 0px; /* mise à zéro de la marge du bas pour les coller */
+         margin-left: 0px; /* définition de la marge gauche des paragraphes */
+         margin-right: 0px; /* definition de la marge droite des paragraphes */
+         font-size: 20px; /* définition de la grandeur de police pour les paragraphe */
+         font-weight: normal; /* mise en gras des paragraphes */
+         text-align: left; /* définition de l'alignement des paragraphes */ 
+         color: white;
+           }
+
+/* Debut de la définition du tableau */
+
+/* Definition de la fenettre fixe d'affichage du tableau */
+div#corp div#corp_tableau {
+                 width: 849px;
+                 max-width: 849px;
+                 height:485px;
+                 max-height:485px;
+                 display: block; /* transformation du div en bloque */
+                 /* position: relative; */ /* transformation du bloque en statique */
+                 overflow: auto; /* mise en place des scroll pour se deplacer dans la page */
+}
+
+/* Definition general du tableau  */
+div#corp table {
+               width: 1200px; /* definition de la largeur total du tableau */
+               margin-left:10px; /* mise des marges en auto pour le centrage du tableau */
+               margin-right:10px; 
+               border-collapse: collapse; /* définition du collage des bordure des cellules dans le tableau */
+               border-style: ridge; /* mise en place de la forme de la bordure du cadre du tableau */
+               border-width: 8px;   /* définition de l'épaisseur de la bordure du cadre */
+               border-color: cyan;  /* définition de la couleur de la bordure */
+               padding: 0px; /* retrait des marges interieurs pour afficher la bordure du tableau */
+               text-align: center; /* essaye de centrage du tableau */
+               }
+
+/* définition de la premiere colone du tableau */
+#voyant {
+       width: 200px; /* définition de la lageur de la colone */
+       border-right-style: ridge; /* définition du style de la bordure droite des désignations */
+       border-right-width: 8px; /* définition de l'epaisseur de la bordure droite pour les désignations */
+       border-right-color: cyan; /* définition de la couleur pour la bordure droite des désignations */
+       background-color: black; /* définition de la couleur de fond de la colone de désignations des voyants */
+       color: black; /* définition de la couleur des désignations */
+       font-weight : bold; /* mise en place du gras pour la police des désignations */
+       }
+
+/* définition des colones de données */       
+#autre {
+       width: 300px; /* détermination de la largeur des colones des jours */
+       background-color: grey;
+       color: white;
+       }
+             
+ /* définition de la ligne de désignation des jours */              
+div#corp th {
+            /* width: 150px; */  /* essaye de définition de la largeur des cellules du tableau */
+            border-style: solid; /* définition du style pour la bordure de titre */
+            border-width: 1px; /* définition de l'épaisseur de la bordure de titre */
+            border-bottom-style: ridge; /* définition du style pour la bordure du bas de la ligne titre */
+            border-bottom-width: 8px; /* définition de l'epaisseur de la bordure du bas de la ligne titre */
+            border-color: cyan; /* définition de la couleur de la bordure */
+            background-color: black; /* définition de la coleur de fond pour la ligne des désignations */
+            color: red;
+            font-size: 20px; /* définition de la taille des colone de titre du tableau */
+            padding: 0px; /* mise à zero des marges interieurs */
+            }
+            
+/* définition des données du tableau */
+div#corp td {
+            margin: 0px; /* définition des marges exterieurs */
+            border-style: solid; /* style des bordures interieur du tableau */
+            border-width: 1px; /* définition de l'épaisseur des bordures interieur du tableau */
+            border-color: cyan; /* mise en couleur des bordures intérieur du tableau   */
+            text-align: center; /* centrage des cellules */
+            font-size: 17px; /* définition de la taille des données dans le tableau */ 
+            padding-top: 5px; /* definition  de la marge interieur */
+            padding-bottom: 5px;
+            }
+
+

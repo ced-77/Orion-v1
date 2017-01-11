@@ -1,0 +1,86 @@
+﻿/* CSS de la page profil des voyant */
+
+/* definition du corp de page */
+#corp {
+      background-color: rgb(48,48,128); 
+      color: white;
+      cursor: default;
+      
+}
+
+/* definition et implantation de la zone de la photo */
+#corp div#image {
+                /* position: relative;*/
+                display: block;
+                margin-top : 10px;
+                margin-left: 10px;
+                width : 150px;
+                height : 150px;
+                float: left;
+                background-color: gray ;
+                
+}
+
+/* Definition des dimentions de l'image */
+#corp img {
+          height : 150px; /* dimention de la hauteur du l'image */
+          width : 150px; /* dimention de la largeur de l'image */
+ }
+
+
+/* definition du titre de la page */
+#corp h1 {
+         text-align: center;
+         color: yellow;
+         font-size: 35px;
+         text-decoration: underline;
+         
+}
+
+
+/* definition du cadre pour la methodologie */
+#corp div#cadre_methode {
+                        position: absolute;
+                        display: block;
+                        margin: 0px;
+                        margin-top: 60px;
+                        width: 849px;
+                        height: auto;
+                        color : white;
+}
+
+/* definition du titre pour la méthodologie */
+
+#corp h2 {
+         margin-top: 15px;
+         text-align: center;
+         font-size: 30px;
+         color: yellow;
+}
+
+/* cadre d'affichage de la methodologie */
+#corp div#methode {
+                  display: block;
+                  margin-top: 0px;
+                  margin-right: 0px;
+                  width: 410px;
+                  height: 151px;
+                  float: right;
+                  overflow: auto;
+                  font-size: 23px;
+                  color: white;
+                  
+}
+
+#corp div#description {
+                  
+                  position : absolute;
+                  margin-top:212px;
+                  padding:20px;
+                  padding-bottom:0px;
+                  width: 810px;
+                  height: 311px;
+                  overflow: auto;
+                  font-size: 23px;
+                  color: white;
+}

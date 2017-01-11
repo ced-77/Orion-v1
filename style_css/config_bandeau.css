@@ -1,0 +1,18 @@
+﻿/* CSS du bandeau de la page */
+
+/* définition du bandeau */
+#bandeau_haut {
+              background: blue; /* définition de la  couleur de fond du bandeau */
+              background-image: url(../image/bandeau_orion.jpg); /* essaye image de fond */
+              cursor: default; /* changement du pointeur de la sourie */       
+              }
+              
+ /* Definition et formatage du titre du bandeau */                                       
+#bandeau_haut h1 {
+              margin-top: -20px; /* mise à zero de la marge du haut du titre */
+              margin-bottom: 0px; /* mise à zero de la marge du bas du titre */
+              color: yellow;
+              text-align: center;
+              font-size: 60px; /* 60px */
+              line-height: 99px; 
+              }

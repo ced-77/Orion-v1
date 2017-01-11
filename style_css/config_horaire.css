@@ -1,0 +1,82 @@
+﻿/* CSS du corp de page HORAIRE */
+
+/* définition de l'apparence du corp de page horaire */
+div#corp {
+         font-size: 16px; /* mise en forme de la grandeur de police */
+         color : yellow; /* mise en couleur du texte */
+         background-color: navy;/*background: rgb(150,0,150);*/ /* mise en couleur de fond fushia */
+         cursor: default; /* définition de la forme du pointeur de la sourie */
+         }
+
+/* definition du titre de la page des horaires serveur */         
+div#corp h1 {
+            margin-top: 0xp; /* annulation de la marge haut du paragraphe */
+            margin-bottom: 0px; /* annulation de la marge bas pour le paragraphe */
+            color: white; /* mise en place de la couleur du titre de la page */
+            font-size: 35px; /* mise en place de la grandeur de la police du titre */
+            text-decoration: underline; /* mise en surlignage du titre de la page */
+            text-align: center; /* centrage du titre sur la page */
+            }
+            
+/* définition des paragraphes */
+div#corp p {
+           color: white;
+           margin-left: 30px; /* mise en place d'une marge gauche pour les paragraphe */
+           font-size: 20px; /* mise en place de la taille de la police du paragraphe */
+           text-align: left; /* mise en place du formatage du texte sur la gauche */ 
+           }
+            
+/* définition du tableau général des horaires */
+div#corp table {
+               /* width: 800px; */  /* definition de la largeur total du tableau */
+               margin: auto; /* mise des marges en auto pour le centrage du tableau */ 
+               border-collapse: collapse; /* définition du collage des bordure des cellules dans le tableau */
+               border-style: ridge; /* mise en place de la forme de la bordure du cadre du tableau */
+               border-width: 8px;   /* définition de l'épaisseur de la bordure du cadre */
+               border-color: cyan;  /* définition de la couleur de la bordure */
+               padding: 0px; /* retrait des marges interieurs pour afficher la bordure du tableau */
+               text-align: center; /* essaye de centrage du tableau */
+               }
+
+/* définition de la premiere colone du tableau */
+#heure {
+       width: 80px; /* définition de la lageur de la colone */
+       border-right-style: ridge; /* définition du style de la bordure droite des désignations */
+       border-right-width: 8px; /* définition de l'epaisseur de la bordure droite pour les désignations */
+       border-right-color: cyan; /* définition de la couleur pour la bordure droite des désignations */
+       background-color: black; /* définition de la couleur de fond de la colone de désignations des heures */
+       color: black; /* définition de la couleur des désignations */
+       font-weight : bold; /* mise en place du gras pour la police des désignations */
+       }
+
+/* définition des colones de données */       
+#jours {
+       width: 120px; /* détermination de la largeur des colones des jours */
+       background-color: maroon;
+       color: white;
+       }
+             
+ /* définition de la ligne de désignation des jours */              
+div#corp th {
+            /* width: 150px; */  /* essaye de définition de la largeur des cellules du tableau */
+            border-style: solid; /* définition du style pour la bordure de titre */
+            border-width: 1px; /* définition de l'épaisseur de la bordure de titre */
+            border-bottom-style: ridge; /* définition du style pour la bordure du bas de la ligne titre */
+            border-bottom-width: 8px; /* définition de l'epaisseur de la bordure du bas de la ligne titre */
+            border-color: cyan; /* définition de la couleur de la bordure */
+            background-color: black; /* définition de la coleur de fond pour la ligne des désignations */
+            color: red;
+            font-size: 25px; /* définition de la taille des colone de titre du tableau */
+            padding: 0px; /* mise à zero des marges interieurs */
+            }
+            
+/* définition des données du tableau */
+div#corp td {
+            margin: 0px; /* définition des marges exterieurs */
+            border-style: solid; /* style des bordures interieur du tableau */
+            border-width: 1px; /* définition de l'épaisseur des bordures interieur du tableau */
+            border-color: cyan; /* mise en couleur des bordures intérieur du tableau   */
+            text-align: center; /* centrage des cellules */
+            font-size: 18px; /* définition de la taille des données dans le tableau */ 
+            padding: 0px; /* mise à zero de la marge interieur */
+            }

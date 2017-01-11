@@ -1,0 +1,83 @@
+﻿/* CSS de la page Connection */
+
+/* définition de l'apparence du corp de la page */
+div#corp {
+         font-size: 12px; /* définition de la taille des police par defaut du corp de page */
+         background-color: rgb(239,255,128); /* définition de la couleur de fond de la page */
+         color: black; /* définition de la couleur par défaut de la police de la page */
+         cursor: default; /* définition de la forme de la sourie */
+         }
+
+/* définition du titre de la page */         
+div#corp h1 {
+            font-size: 35px; /* définition de la taille de police pour le titre */
+            text-align: center; /* centrage du titre */
+            text-decoration: underline; /* soulignage du titre */
+            color: navy; /* définition de la couleur de caractere du titre */
+            font-weight: bold; /* définition du gras de la police de titre */
+            }
+            
+/* définition des paragraphes de la page */
+div#corp p {
+           margin-left: 30px; /* définition de la marge du debut des paragraphes */
+           margin-right: 30px; /* création de la marge de droite pour les paragraphes */
+           font-size: 20px; /* définition de la grandeur de police pour le paragraphe */
+           color: black; /* définition de la couleur de police pour les paragraphes */
+           }
+           
+/* Définition du cadre de la connection */
+fieldset {
+         width: 400px; /* définition de la largeur du cadre de connection */
+         height: auto; /* définition de la hauteur du cadre de connection */
+         margin: auto; /* définition des marges exterieur pour le centrage */
+         margin-top: 100px; /* définition de la marge externe du haut pour baisser le block */
+         }
+         
+/* définition du titre du cadre de connection */
+legend {
+       font-size: 35px; /* définition de la taille de police */
+       color : red; /* définition de la couleur de la police */
+       font-weight: normal; /* définition du gras de la police */
+       }
+       
+
+       
+/* définition pour le sur-vol et la selection des champs de connection */
+input:hover, input:focus {
+             background-color: #CCDDFF ; /* définition du fond de la cellule sur-volée */
+             cursor: auto; /* définition de la forme du curseur */
+             }
+
+/* définition de la mise en place des boutons */
+p.bouton {
+         text-align: center; /* centrage des boutons */
+         margin-bottom: 10px;
+          }
+          
+/* définition de la mise en forme des boutons en état normal */
+p.bouton input {
+             width: 100px; /* largeur des boutons */
+             border-style: outset; /* définition de la forme de la bordure du bouton */
+             margin-bottom: 10px;
+             }
+          
+/* Définition de la mise en forme des boutons survolés */
+p.bouton input:hover {
+                    background-color: red; /* couleur de fond des boutons */
+                    color: white; /* couleur du texte des boutons */
+                    border-style: inset; /* défintion de la bordure des boutons enfoncés */
+                    cursor: pointer; /* définition de la forme du curseur */
+                    } 
+                    
+/* définition du bouton envoye */
+p.bouton input.envoye {
+                      float: left; /* mise à gauche du bouton envoye */
+                      margin-left: 35px; /* marge gauche du bouton */
+                      }            
+
+/* Définition du bouton annule */
+p.bouton input.annule {
+                      float: right; /* mise à droite du bouton annulation */
+                      margin-right: 35px; /* marge droite du bouton */
+                      }
+       

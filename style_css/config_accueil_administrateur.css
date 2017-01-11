@@ -1,0 +1,51 @@
+﻿/* CSS du corp de page Accueil_adminitrateur */
+
+
+ /* définition de l'apparence du corp de page de l'accueil */            
+div#corp {
+          text-align: center; /* centrage de tout ce qui est dans le corp */
+          background-color: grey; /* couleur du fond de la page accueil */
+          cursor: default; /* définition de la forme du curseur de la sourie */
+          }
+
+/* définition du titre de la page */
+div#corp h1 {
+            margin-top: 20px; /* définition de la hauteur du titre */
+            text-align: center; /* centrage du titre */
+            font-size: 27px; /* taille du titre */
+            text-decoration: underline; /* soulignement du titre */
+            font-weight: bold; /* mise en gras de la police du titre */
+            color: white; /* définition de la couleur de police */
+            }
+            
+/* définition du deuxieme titre */
+div#corp h2 {
+            margin-top: 25px; /* définition de l'espacement entre le titre et le sous titre */
+            font-size: 25px; /* définition de la taille du sous titre */
+            text-align: center; /* centrage du sous titre */
+            font-weight: bold; /* mise en gras de la police */
+            color: cyan; /* mise en couleur de la police */
+            }
+         
+/* définition de bloque qui comprend les paragraphes   */
+div#corp blockquote {
+         margin-top: 20px; /* eloignement de blockquote du sous titre */
+         margin-bottom: 0px;
+         margin-left: auto; /* réglage de la marge gauche auto du bloque pour un centrage */
+         margin-right: auto;  /* réglage de la marge droite auto du bloque pour un centrage */
+         width: 650px; /* définition de la lageur du bloc */
+         padding-top: 10px; /* retrait interne du bloque pour éloigner le premier paragraphe du haut de la page */
+         }
+ 
+/* définition des paragraphes du corp du page */          
+div#corp p {
+         margin-top: 0px; /* mise à zéro de la marge du haut des paragraphe pour les coller */
+         margin-bottom: 0px; /* mise à zéro de la marge du bas pour les coller */
+         margin-left: 0px; /* définition de la marge gauche des paragraphes */
+         margin-right: 0px; /* definition de la marge droite des paragraphes */
+         font-size: 20px; /* définition de la grandeur de police pour les paragraphe */
+         font-weight: normal; /* mise en gras des paragraphes */
+         text-align: left; /* définition de l'alignement des paragraphes */ 
+         color: white;
+           }
+             

@@ -1,0 +1,40 @@
+﻿/* CSS du corp de page Accueil */
+
+
+ /* définition de l'apparence du corp de page de l'accueil */            
+div#corp {
+          text-align: center; /* centrage de tout ce qui est dans le corp */
+          background-image: url(../image/fond.jpg); /* chargement de l'image de fond pour l'accueil */
+          /* background-color: #ff00ff; */   /* couleur fuschia */
+          cursor: default; /* définition de la forme du curseur de la sourie */
+          }
+
+/* définition de bloque qui comprend les paragraphes   */
+div#corp blockquote {
+         margin-top: 0px;
+         margin-bottom: 0px;
+         margin-left: auto; /* réglage de la marge gauche auto du bloque pour un centrage */
+         margin-right: auto;  /* réglage de la marge droite auto du bloque pour un centrage */
+         width: 650px; /* définition de la lageur du bloc */
+         padding-top: 10px; /* retrait interne du bloque pour éloigner le premier paragraphe du haut de la page */
+         
+         }
+         
+/* définition des paragraphes du corp du page */          
+div#corp p {
+         margin-left: 0px; /* définition de la marge gauche des paragraphes */
+         margin-right: 0px; /* definition de la marge droite des paragraphes */
+         font-size: 27px; /* définition de la grandeur de police pour les paragraphe */
+         font-weight: bold; /* mise en gras des paragraphes */
+         text-align: left; /* définition de l'alignement des paragraphes */ 
+         color: white;
+           }
+           
+/* définition de la position et propriété de l'image */
+#corp img {
+          margin-top: 45px;
+          border-style: inset; /* mise en place du style de bordure de l'image de tel */
+          border-width: 6px; /* mise en place de la largeur de la bordure de l'image de tel */
+          border-color: lime; /* mise en place de la couleur de la bordure de l'image de tel */
+          }
+  

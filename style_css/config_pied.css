@@ -1,0 +1,29 @@
+﻿/* CSS du pied de page pour le copyright et autre */
+
+         
+/* Définition du pied de page pour le copyright et les notes */
+#pied {
+      background-color: blue;
+      cursor: default; /* définition de la forme du pointeur de la sourie */
+      }
+      
+/* Définition du paragraphe du copyright */
+#pied p.copy {
+      float: left;
+      margin-top : 0px;
+      margin-left: 10px;      
+      color: white;
+      font-size: 15px;
+      line-height: 24px;
+      }
+      
+/* définition du paragraphe des notes de la page */
+#pied p.note {
+      float: right;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right:10px;
+      color: white;
+      font-size:15px;
+      line-height: 24px;
+      }

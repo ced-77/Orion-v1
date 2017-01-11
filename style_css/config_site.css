@@ -1,0 +1,59 @@
+﻿/* CSS de mise en place du site */
+
+/* définition de la page de fond */
+htlm, body {
+     margin-top: 0px; /* définition de la marge du haut du site */
+     background-color: teal;
+     height: 100%;
+     min-height: 650px;
+     }
+
+/* définition des marges du site et du centrage du site */     
+div#page {
+      display: block;
+      /* position: relative; */
+      width: 1000px;
+      min-height: 650px;
+      height: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      }
+      
+/* Definition des marges du bandeau */
+div#bandeau_haut {
+              /*display: block; */
+              /* position: relative; */
+              height: 100px; /* définition de la hauteur du cadre du bandeau */
+              width: 1000px; /* définition de la largeur du cadre du bandeau */
+              }
+      
+/* définition du placement du menu gauche dans le site */
+div#menu_gauche {
+             display: block;
+             position: relative; 
+             float: left;
+             min-height: 650px;
+             height:100%;
+             width: 150px;
+             }
+      
+/* définition général du corp de page avec ses dimentions */
+div#corp {
+         display: block; 
+         /* float: right; */
+         position: relative; 
+         margin-left: 150px; /* definition de la marge gauche du cadre pour commencer apres le menu gauche */
+          height: 650px;  /* si on remet le mini alors ici il faut mettre 100% a la place */
+          /* min-height:650px;  */
+          width: 849px;
+          }
+          
+/* Définition du pied de page  */
+div#pied {
+      /* clear: both; */ /* faire passer le block sous les block-float en le laissant toujours dessous quoiqu'il arrrive */
+      display: block;
+      margin-bottom: 0px;
+      /* position: relative; */
+      height: 25px;
+      width: 1000px;
+

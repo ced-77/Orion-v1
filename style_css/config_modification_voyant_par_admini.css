@@ -1,0 +1,108 @@
+﻿/* CSS DE LA PAGE MODIFICATION DU VOYANT PAR  ADMINISTRATEUR */
+
+/* définition du corp de page */
+div#corp {
+         text-align: center;
+         background-color: grey;
+         cursor: default;
+         }
+
+/* définition du premier titre de page */
+div#corp h1 {
+            margin-top: 20px; /* définition de la marge du haut pour placer le titre sur sa hauteur */
+            text-align: center; /* centrage du titre */
+            font-size: 27px;
+            text-decoration: underline; /* soulignement du titre */
+            font-weight: bold; /*  mise en gras du titre */
+            color: white; /* définition de la couleur de texte du titre */ 
+            }
+            
+/* définition du deuxieme titre */
+div#corp h2 {
+            margin-top: 25px; /* définition de l'espacement entre le titre et le sous titre */
+            font-size: 25px; /* définition de la taille du sous titre */
+            text-align: center; /* centrage du sous titre */
+            font-weight: bold; /* mise en gras de la police */
+            color: cyan; /* mise en couleur de la police */
+            }
+ 
+ /* définition des paragraphes du corp du page */          
+div#corp p {
+         margin-top: 0px; /* mise à zéro de la marge du haut des paragraphe pour les coller */
+         margin-bottom: 10px; /* mise à zéro de la marge du bas pour les coller */
+         margin-left: 30px; /* définition de la marge gauche des paragraphes */
+         margin-right: 30px; /* definition de la marge droite des paragraphes */
+         font-size: 20px; /* définition de la grandeur de police pour les paragraphe */
+         font-weight: normal; /* mise en gras des paragraphes */
+         text-align: left; /* définition de l'alignement des paragraphes */ 
+         color: white;
+           }
+
+/* définition du cadre du champ fieldset */
+fieldset {
+         width: 400px; /* définition de la largeur du tableau pour le formulaire */
+         margin-left: auto;
+         margin-right: auto;
+         margin-top : 45px; /* marge de séparation du cadre du formulaire et du titre h2 de la page */ 
+         }
+         
+/* définition du titre du cadre */
+legend {
+       margin-bottom: 30px; /* marge du bas de la legende par la séparer du formulaire */
+       font-size: 25px; /* Taille de la police de caractère */
+       font-weight: bold; /* mise en gras */
+       color: cyan; /* mise en couleur */
+       }
+         
+/* configuration des messages d'erreur */
+div#corp p.erreur {
+         margin-top: 0px;
+         margin-bottom: 0px;
+         display: block; /* mise en block du message erreur */
+         text-align : center; /* centrage des messages d'erreur */
+         font-weight : bold; /* affichage en gras */
+         color : yellow; /*Affichage du message en rouge */
+         background-color : red;
+         }
+      
+/* définition pour le sur-vol et la selection des champs de connection */
+input:hover, input:focus {
+             background-color: #CCDDFF ; /* définition du fond de la cellule sur-volée */
+             cursor: auto; /* définition de la forme du curseur */
+             }
+
+/* définition de la mise en place des boutons */
+p.bouton {
+         text-align: center; /* centrage des boutons */
+         margin-top: 30px;
+         margin-bottom: 10px;
+          }
+          
+/* définition de la mise en forme des boutons en état normal */
+p.bouton input {
+             width: 100px; /* largeur des boutons */
+             border-style: outset; /* définition de la forme de la bordure du bouton */
+             margin-top:30px;
+             margin-bottom: 10px;
+             }
+          
+/* Définition de la mise en forme des boutons survolés */
+p.bouton input:hover {
+                    background-color: red; /* couleur de fond des boutons */
+                    color: white; /* couleur du texte des boutons */
+                    border-style: inset; /* défintion de la bordure des boutons enfoncés */
+                    cursor: pointer; /* définition de la forme du curseur */
+                    } 
+                    
+/* définition du bouton envoye */
+p.bouton input.envoye {
+                      float: left; /* mise à gauche du bouton envoye */
+                      margin-left: 35px; /* marge gauche du bouton */
+                      }            
+
+/* Définition du bouton annule */
+p.bouton input.annule {
+                      float: right; /* mise à droite du bouton annulation */
+                      margin-right: 35px; /* marge droite du bouton */
+                      }
+

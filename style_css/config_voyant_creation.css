@@ -1,0 +1,121 @@
+﻿/* CSS Document de la page de creation des voyants */
+
+
+/* définition de la page et ses marges */
+div#corp {
+         background-color: grey; /* définition de la couleur de fond de la page */
+         color: white; /* définition de la couleur de la police de la page */
+         cursor: default; /* définition du pointeur de la sourie à fleche */
+         }
+         
+/* définition du titre de la page */
+div#corp h1 {
+         margin-top: 20px; /* définition de la marge du haut du titre de la page */
+         font-size: 27px; /* définitin de la taille de la police du titre */
+         text-align: center; /* centrage du titre */
+         text-decoration: underline; /* soulignement du titre de la page */
+         font-weight: bold; /* définition du gras de la police */
+         color: white; /* définition de la couleur de la police */
+         }
+         
+         
+/* définition des paragraphe */
+div#corp p {
+           margin-top: 0px; /* mise à zéro de la marge du haut des paragraphe pour les coller */
+           margin-bottom: 0px; /* mise à zéro de la marge du bas pour les coller */
+           margin-left: 30px; /* définition de la marge gauche des paragraphes */
+           margin-right: 30px; /* definition de la marge droite des paragraphes */
+           font-size: 20px; /* définition de la grandeur de police pour les paragraphe */
+           font-weight: normal; /* mise en gras des paragraphes */
+           text-align: left; /* définition de l'alignement des paragraphes */ 
+           color: white;
+           }
+           
+/* définition du cadre du champ fieldset */
+fieldset {
+         width: 650px; /* définition de la largeur du tableau pour le formulaire */
+         margin-left: auto;
+         margin-right: auto;
+         }
+         
+/* définition du titre du cadre */
+legend {
+       font-size: 25px;
+       font-weight: bold;
+       color: cyan;
+       }
+         
+/* essaye de centrage dans les paragraphe formulaire */
+p.formulaire {
+              margin-left: 10px;
+              margin-right: auto;
+              text-align: left;
+              font-size: 20px;
+              cursor: auto;
+              }
+
+/* configuration des messages d'erreur */
+div#corp p.erreur {
+         display: block; /* mise en block du message erreur */
+         text-align : center; /* centrage des messages d'erreur */
+         font-weight : bold; /* affichage en gras */
+         color : yellow; /*Affichage du message en rouge */
+         background-color : red;
+         }
+       
+/* définition pour le sur-vol et la selection des champs de connection */
+input:hover, input:focus {
+             background-color: #CCDDFF ; /* définition du fond de la cellule sur-volée */
+             cursor: auto; /* définition de la forme du curseur */
+             }
+
+/* définition de la mise en place des boutons */
+p.bouton {
+         margin-bottom: 10px;
+          }
+          
+/* définition de la mise en forme des boutons en état normal */
+p.bouton input {
+             width: 100px; /* largeur des boutons */
+             border-style: outset; /* définition de la forme de la bordure du bouton */
+             margin-bottom: 10px;
+             }
+          
+/* Définition de la mise en forme des boutons survolés */
+p.bouton input:hover {
+                    background-color: red; /* couleur de fond des boutons */
+                    color: white; /* couleur du texte des boutons */
+                    border-style: inset; /* défintion de la bordure des boutons enfoncés */
+                    cursor: pointer; /* définition de la forme du curseur */
+                    } 
+                    
+/* définition du bouton envoye */
+p.bouton input.envoye {
+                      float: left; /* mise à gauche du bouton envoye */
+                      margin-left: 35px; /* marge gauche du bouton */
+                      }            
+
+/* Définition du bouton annule */
+p.bouton input.annule {
+                      float: right; /* mise à droite du bouton annulation */
+                      margin-right: 35px; /* marge droite du bouton */
+                      }
+
+/* definition du paragraphe de la citation */
+p.fomulaire p.citation {
+           margin-top: 10px;
+           float: none;
+           margin-left:10px
+           margin-right: auto;
+           } 
+                                 
+/* configuration de la citation de fin de formulaire */
+p.citation cite {
+                float: none;      
+                display: block;
+                background-color: red;
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+                }
